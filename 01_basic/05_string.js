@@ -26,7 +26,7 @@ const anotherString = gameName.slice(-3, 0);
 
 const newStringOne = " hitesh ";
 console.log(newStringOne);
-// console.log(newStringOne.trim());  TRIM always remove space
+// console.log(newStringOne.trim());  TRIM always remove space trimleft and trimright
 
 const url = "https//hitesh.com/hitesh%20choudary";
 
