@@ -27,4 +27,14 @@ console.log(Math);
 // console.log(Math.min(5, 5, 14, 48, 3));
 // console.log(Math.max(5, 48, 100, 10000, 2555, 25));
 
-console.log(Math.random());
+// console.log(Math.random());
+
+// console.log(Math.random() * 10 + 1);
+
+// console.log(Math.floor(Math.random() * 10) + 1);
+
+const min = 10;
+
+const max = 20;
+
+console.log(Math.floor(Math.random() * (max - min + 1)) + min);
