@@ -29,5 +29,14 @@ let myTimeStamp = Date.now();
 
 //console.log(Math.floor(Date.now() / 1000)); // sec me convert krne ke liye 1000 "/" krte hai to dogit decimal me aate hai isliye math.floor ka function use krke us ko decimal walve ko remove krte hai,
 
+// console.log(myDate.getDay());
+
 let newDate = new Date();
-console.log(newDate());
+
+console.log(myDate.getDate());
+
+console.log(newDate.toLocaleString());
+
+// newDate.toLocaleString("default", {
+//   weekday: "long",
+// });
