@@ -8,7 +8,7 @@ const Arry2 = new Array(1, 2, 3, 4); // rray aise form me bhe likh skte hai ther
 
 // +++++++++++++++++++Array Method ++++++++++++++++++++++++++
 
-// Arry.push(20); // push mean "me add the value on original array"
+Arry.push(30); // push mean " add the value on end in original array"
 
 // Arry.pop(); // last wala array  remove kr dete hai
 
@@ -35,13 +35,13 @@ const array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 // slice Method +++++
 
-console.log("A", array);
+// console.log("A", array);
 const myn1 = array.slice(1, 3); // isme 1 se 3 ke beach ke valve lege but jaise ke 1,2 onlu 3 count nahi krege, aur ye slice apna original array bhe change nagi krta hai,
-console.log(myn1); //
+// console.log(myn1);
 
 //  splice Method ++++++++
 
-console.log("B", array);
+// console.log("B", array);
 const myn2 = array.splice(1, 3); // isme 1 se 3 tak lege jaise (1,2,3) but isme splice apna original array se valve nikal kr output deta hai
-console.log("C", array);
-console.log(myn2); //
+// console.log("C", array);
+// console.log(myn2);
