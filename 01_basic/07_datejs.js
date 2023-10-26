@@ -24,7 +24,7 @@ let myCreatedDate = new Date("01-12-2023");
 
 let myTimeStamp = Date.now();
 
-//console.log(myTimeStamp); //milesec wale shoe hoge
+//console.log(myTimeStamp); //milesec wale shoW hoge
 // console.log(myCreatedDate.getTime()); // get.time use krne se normal date 01-12-2023 ko milesec me covert krdega onlu for compare
 
 //console.log(Math.floor(Date.now() / 1000)); // sec me convert krne ke liye 1000 "/" krte hai to dogit decimal me aate hai isliye math.floor ka function use krke us ko decimal walve ko remove krte hai,
