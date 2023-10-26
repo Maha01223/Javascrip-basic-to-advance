@@ -4,6 +4,7 @@ const myHeros = ["shaktiman", "salmankhan", "dharminder"]; // array aise form me
 
 const Arry2 = new Array(1, 2, 3, 4); // rray aise form me bhe likh skte hai there is 3 way to write ARRAY
 
+// console.log(Arry[0]);
 // console.log(Arry.length, Arry2.length, myHeros.length);
 
 // +++++++++++++++++++Array Method ++++++++++++++++++++++++++
