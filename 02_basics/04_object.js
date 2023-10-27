@@ -73,5 +73,9 @@ const course = {
 
 // console.log(course.courseInstructor);
 
-const { courseInstructor } = course;
-console.log(courseInstructor);
+const { courseInstructor: Instructor } = course;
+console.log(Instructor);
+
+// const nav = ({ company }) => {};  // deconstructed in react
+
+// nav((company = "Mohsin"));
