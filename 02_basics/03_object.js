@@ -1,5 +1,7 @@
 // Singleton
-// Object.create // that a constructor method to create singleton
+// that a constructor method to create singleton
+
+// Object.create
 
 //object literals // keys define and valve valve define but Array me nahi kr skte key define
 
@@ -16,8 +18,8 @@ const Jsuser = {
   //   lastLoginDays:["monday", "tuesday", "wednesday"]
 };
 
-// console.log(Jsuser.email);
-// console.log(Jsuser["email"]);
+// console.log(Jsuser.email); //this is not a good method
+// console.log(Jsuser["email"]); this is good method
 // console.log(Jsuser["full name"]);
 // console.log(Jsuser[mySym]);
 // console.log(typeof Jsuser[mySym]);
@@ -36,7 +38,7 @@ Jsuser.greeting = function () {
 };
 
 Jsuser.greetingTwo = function () {
-  console.log(`Hello JS User ${this.name}`);
+  console.log(`Hello JS User ${this.name}`); // add krne me ye best way haui
 };
 
 console.log(Jsuser.greeting());
