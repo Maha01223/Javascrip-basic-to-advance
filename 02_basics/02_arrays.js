@@ -48,7 +48,8 @@ const new_another_array = another_array.flat(Infinity);
 
 // console.log(Array.from({ name: "mohsin" }));  // intersting because it not convert you just give path ke convert kis ko krna hai
 
-// example
+// example method oF
+//  The Array.of() static method creates a new Array instance from a variable number of arguments, regardless of number or type of the arguments.
 let score1 = 100;
 let score2 = 200;
 let score3 = 300;
