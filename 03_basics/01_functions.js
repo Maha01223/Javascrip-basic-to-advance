@@ -7,9 +7,9 @@ function SayMyName() {
   console.log("N");
 }
 
-SayMyName; // Referenece
+// SayMyName; // Referenece
 
-SayMyName(); //Exicution
+// SayMyName(); //Exicution
 
 // function addTwoNumber(number1, number2) {
 //   // do number hai bracket me isko bolte  hai parameter
@@ -29,4 +29,15 @@ function addTwoNumber(number1, number2) {
 }
 
 const result = addTwoNumber(3, 5);
-console.log("result", result);
+// console.log("result", result);
+
+function loginUserMessage(userName) {
+  if (userName === undefined) {
+    console.log("please enter a username");
+    return;
+  }
+  return `${userName} Just logged In`;
+}
+
+// console.log(loginUserMessage("Mohsin"));
+console.log(loginUserMessage());
