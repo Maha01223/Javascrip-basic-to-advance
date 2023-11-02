@@ -56,4 +56,33 @@ function calculateCardPrice(val1, val2, ...num1) {
   return num1;
 }
 
-console.log(calculateCardPrice(200, 300, 500, 600, 700, 800)); // ye senirio me 200 valve1 me gye aur 300 valve2 me gye aur 500 se 800 tak jo valve hai vo array me aa gye aisa kab hoga jab hum val1,val2, ..num1 use krege
+// console.log(calculateCardPrice(200, 300, 500, 600, 700, 800)); // ye senirio me 200 valve1 me gye aur 300 valve2 me gye aur 500 se 800 tak jo valve hai vo array me aa gye aisa kab hoga jab hum val1,val2, ..num1 use krege
+
+const User = {
+  userName: "MOhsin",
+  price: 199,
+};
+
+function handleObject(anyobject) {
+  console.log(
+    `username is ${anyobject.userName} and price is ${anyobject.price}`
+  );
+}
+
+// handleObject(User);
+
+// or
+
+handleObject({
+  userName: "Mohsin",
+  price: 399,
+});
+
+const myNewArray = [200, 300, 500, 800];
+
+function returnSecondValve(getArray) {
+  return getArray[3];
+}
+
+// console.log(returnSecondValve(myNewArray));
+console.log(returnSecondValve([400, 500, 800, 10000]));
