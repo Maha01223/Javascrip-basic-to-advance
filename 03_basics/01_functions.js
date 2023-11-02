@@ -40,4 +40,20 @@ function loginUserMessage(userName) {
 }
 
 // console.log(loginUserMessage("Mohsin"));
-console.log(loginUserMessage());
+// console.log(loginUserMessage());
+
+// ...num1 its called rest operator and spread method
+
+// function calculateCardPrice(...num1) {
+//   return num1;
+// }
+
+// console.log(calculateCardPrice(200, 300, 500, 600, 700, 800)); // sirf ...num1 dene se pure valve ek array me aa jaate hai
+
+//or
+
+function calculateCardPrice(val1, val2, ...num1) {
+  return num1;
+}
+
+console.log(calculateCardPrice(200, 300, 500, 600, 700, 800)); // ye senirio me 200 valve1 me gye aur 300 valve2 me gye aur 500 se 800 tak jo valve hai vo array me aa gye aisa kab hoga jab hum val1,val2, ..num1 use krege
