@@ -85,4 +85,6 @@ function returnSecondValve(getArray) {
 }
 
 // console.log(returnSecondValve(myNewArray));
+
+//or
 console.log(returnSecondValve([400, 500, 800, 10000]));
