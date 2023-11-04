@@ -11,6 +11,7 @@ if (true) {
 
 // console.log(a);
 // console.log(b);
+// console.log(c); iska out put aaye ga global ho kr bhe isme hum VAR use nahi krte hai
 // ++++++++ nested ++++
 function one() {
   const username = "Mohsin";
@@ -44,7 +45,7 @@ function addone(num) {
 
 //++++++++++++++OR+++++++++++++++++++++
 
-// console.log(addTwo(6)); // variable function jis me koi function add ho uss ko aise print nahi  kr skte
+// console.log(addTwo(6)); // variable function jis me koi function add ho uss ko aise print he kr skte
 const addTwo = function (num) {
   return num + 2;
 };
