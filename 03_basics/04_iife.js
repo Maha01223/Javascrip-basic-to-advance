@@ -9,11 +9,13 @@ function one() {
 // IIFE method
 
 // (function one() {
+// unname IIFE
 //   console.log(`DB CONNECTED`);
 // })();
 
 // Both Are Same
 
-// (() => {
-//   console.log(`DB CONNECTED`);
-// })();
+((name) => {
+  //   unname IIFE
+  console.log(`DB CONNECTED ${name}`);
+})("Mohsin");
