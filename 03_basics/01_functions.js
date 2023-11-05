@@ -11,10 +11,10 @@ function SayMyName() {
 
 // SayMyName(); //Exicution
 
-// function addTwoNumber(number1, number2) {
-//   // do number hai bracket me isko bolte  hai parameter
-//   console.log(number1 + number2);
-// }
+function addTwoNumber(number1, number2) {
+  //   // do number hai bracket me isko bolte  hai parameter
+  //   console.log(number1 + number2);
+}
 
 // addTwoNumber(3, 5); // [isme koi valve pass krate hai toh  bolte hai  argument]
 // // addTwoNumber(3, "5");
@@ -44,9 +44,9 @@ function loginUserMessage(userName) {
 
 // ...num1 its called rest operator and spread method
 
-// function calculateCardPrice(...num1) {
-//   return num1;
-// }
+function calculateCardPrice(...num1) {
+  return num1;
+}
 
 // console.log(calculateCardPrice(200, 300, 500, 600, 700, 800)); // sirf ...num1 dene se pure valve ek array me aa jaate hai
 
