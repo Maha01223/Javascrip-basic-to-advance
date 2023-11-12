@@ -51,3 +51,8 @@ const addTwo = function (num) {
 };
 
 // console.log(addTwo(6));
+
+// Javascript Execution context
+// { } this is a global EExecution context
+
+// now
