@@ -38,4 +38,9 @@ if (temp < 51) {
 
 // console.log(`user power : ${power}`);
 
-// var is a completely global
+// var is a completely global thats why we dont use
+
+const balance = 1000;
+if (balance > 500) console.log("test");
+
+// thats call short thunder properties
