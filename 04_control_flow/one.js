@@ -45,12 +45,25 @@ const balance = 1000;
 
 // thats call short thunder properties
 
-if (balance < 500) {
-  console.log("less than 500");
-} else if (balance < 750) {
-  console.log("less than 750");
-} else if (balance < 950) {
-  console.log("less than 950");
-} else {
-  console.log("less than 1200");
+// if (balance < 500) {
+//   console.log("less than 500");
+// } else if (balance < 750) {
+//   console.log("less than 750");
+// } else if (balance < 950) {
+//   console.log("less than 950");
+// } else {
+//   console.log("less than 1200");
+// }
+
+const UserloggedIn = true;
+const debitCard = true;
+const logInformGoogle = true;
+const loggedInFromEmail = false;
+
+if (UserloggedIn && debitCard && 2 == 2) {
+  console.log("allow to buy courses");
+}
+
+if (logInformGoogle || loggedInFromEmail) {
+  console.log("User logIn");
 }
