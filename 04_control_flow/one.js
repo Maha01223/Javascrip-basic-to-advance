@@ -41,6 +41,16 @@ if (temp < 51) {
 // var is a completely global thats why we dont use
 
 const balance = 1000;
-if (balance > 500) console.log("test");
+// if (balance > 500) console.log("test");
 
 // thats call short thunder properties
+
+if (balance < 500) {
+  console.log("less than 500");
+} else if (balance < 750) {
+  console.log("less than 750");
+} else if (balance < 950) {
+  console.log("less than 950");
+} else {
+  console.log("less than 1200");
+}
