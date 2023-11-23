@@ -15,7 +15,15 @@ let arr = 0;
 
 // same BOth as different code
 
-while (arr < myArray.length) {
-  console.log(myArray[arr]);
-  arr++;
-}
+// while (arr < myArray.length) {
+//   console.log(myArray[arr]);
+//   arr++;
+// }
+
+// Do while loop me palhe kaam ho jaata hai fir condition check baad me hoti hai.
+
+// let score = 21;
+// do {
+//   console.log(`score is ${score}`);
+//   score++;
+// } while (score <= 20);
