@@ -33,19 +33,8 @@ const myObject = {
 };
 
 // console.log(myObject);
-// object me forof method is not working, its on;y forin is working
+// object me forof method is not working, :- its only forin is working
 
 // for (const [key, value] of myObject) {
 //   console.log(key, ":-", value);
 // }
-
-const mYObject = {
-  js: "javascript",
-  cpp: "c++",
-  rb: "ruby",
-  swift: "swift bt apple",
-};
-
-for (const key in mYObject) {
-  console.log(key);
-}
