@@ -1,4 +1,5 @@
-// const coding = ["js", "rb", "py", "java", "cpp"];
+//  Filter Method
+const coding = ["js", "rb", "py", "java", "cpp"];
 
 // const value = coding.forEach((item) => {
 //   console.log(item);
