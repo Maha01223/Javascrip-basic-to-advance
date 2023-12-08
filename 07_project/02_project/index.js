@@ -8,7 +8,7 @@ form.addEventListener("submit", function (e) {
   const height = parseInt(document.querySelector("#height").value);
   const weight = parseInt(document.querySelector("#weight").value);
   const result = document.querySelector("#results");
-
+  // isNAN means id someone put a-z so its show put valid number
   if (height === "" || height < 0 || isNaN(height)) {
     result.innerHTML = `please give a valid height ${height}`;
   } else if (weight === "" || weight < 0 || isNaN(weight)) {
