@@ -70,12 +70,20 @@
         }, false)
 
         document.querySelector("ul").addEventListener("click", function (e) {
-            console.log(e);
-            console.log(e.target.parentNode);
+            // console.log(e);
+            // console.log(e.target.parentNode);// isme img ka parents li hai but jo link hai uss ka praents ul hai isliye link pr clink krne se ya LI ko click krne se Ul remove ho jaaye ga pura.
+            console.log(e.target.tagName);
+            if (e.target.tagName === "IMG") {
+                console.log(e.target.id);
+                let removeIT = e.target.parentNode
+                removeIT.remove()
+
+            }
             // let remove = e.target.parentNode.remove()
-            let removeIT = e.target.parentNode
-            // removeIT.remove()
-            removeIT.parentNode.removeChild(removeIT)
+
+
+
+            // removeIT.parentNode.removeChild(removeIT)
         }, false)
     </script>
 </body>
