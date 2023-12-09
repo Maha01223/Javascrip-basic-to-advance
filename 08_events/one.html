@@ -25,7 +25,8 @@
             <li><img width="200px" id="prayer"
                     src="https://images.pexels.com/photos/2028187/pexels-photo-2028187.jpeg?auto=compress&cs=tinysrgb&w=600"
                     alt=""></li>
-            <li><a style="color: aliceblue;" href="https://google.com" id="google"></a></li>
+            <li><a style="color: aliceblue; background-color: red;" href="https://google.com" id="google">google</a>
+            </li>
         </ul>
 
     </div>
@@ -41,12 +42,13 @@
         document.getElementById("owl").addEventListener("click", function (e) {
             console.log("clicked owl");
             e.stopPropagation()
+            // stopPropagation means vo jo image aue owl dono ke valse show ho rhe hai uss me image stop ho jaaye 2nd wale stop ho jaye 
         }, false)
 
         // default me use hota hai false usko khete hai events bubbling
 
         //Event capturing me True ka use hota hai 
-        
+
         // ab dono ko use kaise krte hai, jab dono de dedault valve false hai to False wale case me Palhe Owl print hoga fir Images print hoga, because of bubbling isme bubble jo hota hai vo niche se upper jaata hai. isliye palhe owl print hua fir images, q ke owl image ke under hai jo palhe ye print hoga  sab se palhe a>li>div> aise he sab se palhe click a huaa toh ye sab se palhe print hoga.
 
         // ab true waale case me Event capturing me palhe img wala print hoga fir owl. because images ke under owl hai isliye so its depend on use ke hum ko palhe kya lena hai aur kya krna hai.
@@ -58,6 +60,12 @@
 
         // Jquery - on eventlisner
         // attachEvent()
+
+        document.getElementById("google").addEventListener("click", function (e) {
+            e.preventDefault()
+            // preventDefault means to stop when we clickgooglr link  so dont show google page,śś
+            console.log("google clicked");
+        }, false)
     </script>
 </body>
 
