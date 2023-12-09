@@ -37,6 +37,7 @@
 
         document.getElementById("images").addEventListener("click", function (e) {
             console.log("clicked inside the ul");
+            // e.stopPropagation()
         }, false)
 
         document.getElementById("owl").addEventListener("click", function (e) {
@@ -63,8 +64,18 @@
 
         document.getElementById("google").addEventListener("click", function (e) {
             e.preventDefault()
+            e.stopPropagation()
             // preventDefault means to stop when we clickgooglr link  so dont show google page,śś
             console.log("google clicked");
+        }, false)
+
+        document.querySelector("ul").addEventListener("click", function (e) {
+            console.log(e);
+            console.log(e.target.parentNode);
+            // let remove = e.target.parentNode.remove()
+            let removeIT = e.target.parentNode
+            // removeIT.remove()
+            removeIT.parentNode.removeChild(removeIT)
         }, false)
     </script>
 </body>
