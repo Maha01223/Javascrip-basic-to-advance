@@ -36,19 +36,20 @@
 
         document.getElementById("images").addEventListener("click", function (e) {
             console.log("clicked inside the ul");
-        }, true)
+        }, false)
 
         document.getElementById("owl").addEventListener("click", function (e) {
             console.log("clicked owl");
-        }, true)
+            e.stopPropagation()
+        }, false)
 
         // default me use hota hai false usko khete hai events bubbling
 
         //Event capturing me True ka use hota hai 
         
-        // ab dono ko use kaise krte hai, jab dono de dedault valve false hai to False wale case me Palhe Owl print hoga fir Images print hoga, because of bubbling isme bubble jo hota hai vo niche se upper jaata hai. isliye palhe owl print hua fir images, q ke owl image ke under hai jo palhe ye print hoga  sab se palhe a>li>div> aise he sab se palhe click a huaa toh ye sab se palhe print hoga
+        // ab dono ko use kaise krte hai, jab dono de dedault valve false hai to False wale case me Palhe Owl print hoga fir Images print hoga, because of bubbling isme bubble jo hota hai vo niche se upper jaata hai. isliye palhe owl print hua fir images, q ke owl image ke under hai jo palhe ye print hoga  sab se palhe a>li>div> aise he sab se palhe click a huaa toh ye sab se palhe print hoga.
 
-        // ab true waale case me Event capturing me palhe img wala print hoga fir owl. because images ke under owl hai isliye so its depend on use ke hum ko palhe kya lena hai aur kya krna hai
+        // ab true waale case me Event capturing me palhe img wala print hoga fir owl. because images ke under owl hai isliye so its depend on use ke hum ko palhe kya lena hai aur kya krna hai.
 
 
 
